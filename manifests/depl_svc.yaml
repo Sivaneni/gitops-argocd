@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gitops-ai-agent
-        image: sprasanna1992/argocd-events:latest
+        image: sprasanna1992/argocdevents:v1
         ports:
         - containerPort: 8080
         env:
@@ -57,4 +57,4 @@ spec:
   ports:
   - port: 80
     targetPort: 8080
-  type: NodePort
+  type: ClusterIP
