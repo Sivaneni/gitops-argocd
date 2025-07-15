@@ -24,7 +24,7 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 128Mi
+            memory: 256Mi # Increased memory limit to fix OOM issue
           limits:
             cpu: 200m
-            memory: 256Mi
+            memory: 512Mi # Increased memory limit to fix OOM issue
