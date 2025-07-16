@@ -27,4 +27,4 @@ spec:
             memory: 2Gi # Increased memory request to match limit
           limits:
             cpu: 200m
-            memory: 2Gi # Increased memory limit to fix OOM issue
+            memory: 4Gi # Increased memory limit to fix OOM issue
