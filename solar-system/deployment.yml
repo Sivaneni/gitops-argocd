@@ -23,8 +23,8 @@ spec:
         - containerPort: 80
         resources:
           requests:
-            cpu: 100m
-            memory: 2Gi # Increased memory request to match limit
+            cpu: 200m # Increased CPU request to match limit
+            memory: 2Gi
           limits:
             cpu: 200m
-            memory: 2Gi # Increased memory limit to fix OOM issue
+            memory: 2Gi
