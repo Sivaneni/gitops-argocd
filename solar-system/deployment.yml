@@ -16,7 +16,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: siddharth67/solar-system:v11
+      - image: siddharth67/solar-system:v6
         name: solar-system
         imagePullPolicy: Always
         ports: 
@@ -24,7 +24,7 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 2Gi # Increased memory request to match limit
+            memory: 500m # Increased memory request to match limit
           limits:
             cpu: 200m
-            memory: 2Gi # Increased memory limit to fix OOM issue
+            memory: 500m # Increased memory limit to fix OOM issue
