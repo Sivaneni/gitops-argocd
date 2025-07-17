@@ -24,7 +24,7 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 500m # Increased memory request to match limit
+            memory: 200m # Increased memory request to match limit
           limits:
             cpu: 200m
-            memory: 500m # Increased memory limit to fix OOM issue
+            memory: 300m # Increased memory limit to fix OOM issue
