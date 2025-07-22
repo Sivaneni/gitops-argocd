@@ -22,10 +22,3 @@ spec:
         imagePullPolicy: Always
         ports: 
         - containerPort: 80
-        resources:
-          requests:
-            cpu: 200m # Increased CPU request to match limit
-            memory: 300m # Increased memory request to match limit
-          limits:
-            cpu: 200m
-            memory: 300m # Increased memory limit to fix OOM issue
